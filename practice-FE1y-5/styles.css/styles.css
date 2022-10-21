@@ -1,0 +1,103 @@
+.header-item{
+    display: flex;
+    justify-content: center;
+    margin-left: 100px;
+    padding-left: 100px;
+    
+}
+
+.header-item :first-child{
+     margin-left: 0;
+}
+
+.header-list{
+    display: flex;
+    justify-content: center;
+}
+
+.header-link{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.36;
+    color: #7D7D7D;
+}
+
+.card-button{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 20px ;
+    padding-bottom: 20px;
+    background-color: white;
+    color: #626262;
+
+}
+   
+.header-items{
+    padding-left: 60px ;
+}
+
+
+.header-item{
+    margin-left: 99px;
+    margin-top: 71px;
+    margin-bottom: 92px;
+}
+.header-section{
+    padding-top: 71px ;
+    padding-bottom: 92px ;
+}
+
+.header-item:first-child{
+    margin-left: 0;
+}
+
+.main-list-item{
+
+width: 420px;
+margin-right: 65px;
+margin-bottom: 130px;
+}
+
+
+.main-list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.main-list-item:nth-child(2n){
+    margin-right: 0;
+}
+
+.card-name{
+    margin-top: 62px;
+    margin-bottom: 32px;
+    color: #B4AD9E;
+}
+
+.card-title{
+    margin-bottom: 40px;
+    color: #626262;
+}
+
+.card-description{
+    color: #626262;
+}
+
+.main-list-item:hover{
+    box-shadow: 2px 1px 5px rgba(6, 184, 244), 2px 2px 0px rgb(165, 101, 6) ,
+    0px 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+.card-button:hover{
+    color: blue;
+    background: pink;
+    border-radius: 50%;
+}
